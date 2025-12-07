@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Data files (large)
+data/raw/*.csv
+data/processed/*.csv
+smh_historical_data/*.csv
+*.parquet
+
+# Model files (large - use Git LFS or S3)
+models/*.pkl
+!models/README.md
+models_storage/etfs/*/production/*.pkl
+models_storage/stocks/*/production/*.pkl
+
+# Temporary files
+temp/
+*.tmp
+*.log
+
+# CatBoost
+catboost_info/
+
+# Results
+results/*.png
+results/*.csv
+results/*.json
+
+# Archives
+archive/
+
+# AWS credentials (never commit!)
+.aws/
+credentials
+
+# Logs
+*.log
+logs/
+
+# Test outputs
+test_output/

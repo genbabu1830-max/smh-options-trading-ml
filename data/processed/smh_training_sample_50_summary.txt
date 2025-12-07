@@ -1,0 +1,154 @@
+======================================================================
+SAMPLE DATASET SUMMARY - FOR FEEDBACK
+======================================================================
+
+Total Samples: 50
+Date Range: 2024-03-20 to 2025-11-17
+
+STRATEGY DISTRIBUTION
+----------------------------------------------------------------------
+LONG_CALL: 16 samples (32.0%)
+CALENDAR_SPREAD: 7 samples (14.0%)
+LONG_PUT: 5 samples (10.0%)
+IRON_CONDOR: 5 samples (10.0%)
+BULL_CALL_SPREAD: 4 samples (8.0%)
+BEAR_PUT_SPREAD: 4 samples (8.0%)
+IRON_BUTTERFLY: 4 samples (8.0%)
+DIAGONAL_SPREAD: 2 samples (4.0%)
+LONG_STRANGLE: 2 samples (4.0%)
+LONG_STRADDLE: 1 samples (2.0%)
+
+SAMPLE STATISTICS
+----------------------------------------------------------------------
+Win Probability:
+  Mean: 71.1%
+  Min:  60.0%
+  Max:  100.0%
+
+Expected Return:
+  Mean: 0.86%
+  Min:  0.39%
+  Max:  1.44%
+
+Average Days Held:
+  Mean: 9.1 days
+  Min:  4 days
+  Max:  26 days
+
+SAMPLE EXAMPLES (First 10 rows)
+----------------------------------------------------------------------
+
+Row 1:
+  Date: 2025-07-11
+  Strategy: LONG_CALL
+  Current Price: $221.70
+  IV Rank: 38.0
+  RSI: 62.6
+  ADX: 21.7
+  Win Probability: 66.7%
+  Expected Return: 0.90%
+  DTE: 7 days
+
+Row 2:
+  Date: 2024-07-22
+  Strategy: BULL_CALL_SPREAD
+  Current Price: $220.29
+  IV Rank: 60.4
+  RSI: 67.5
+  ADX: 28.8
+  Win Probability: 76.2%
+  Expected Return: 0.61%
+  Long Strike: $220.00
+  Short Strike: $232.50
+  DTE: 14 days
+
+Row 3:
+  Date: 2024-12-27
+  Strategy: LONG_PUT
+  Current Price: $222.39
+  IV Rank: 34.5
+  RSI: 37.9
+  ADX: 24.7
+  Win Probability: 66.7%
+  Expected Return: 0.88%
+  DTE: 7 days
+
+Row 4:
+  Date: 2024-10-31
+  Strategy: DIAGONAL_SPREAD
+  Current Price: $217.76
+  IV Rank: 58.9
+  RSI: 44.8
+  ADX: 13.4
+  Win Probability: 66.7%
+  Expected Return: 0.98%
+  Long Strike: $217.50
+  Short Strike: $227.50
+
+Row 5:
+  Date: 2025-11-14
+  Strategy: CALENDAR_SPREAD
+  Current Price: $237.48
+  IV Rank: 0.0
+  RSI: 40.7
+  ADX: 17.0
+  Win Probability: 62.5%
+  Expected Return: 0.68%
+
+Row 6:
+  Date: 2025-11-11
+  Strategy: LONG_STRANGLE
+  Current Price: $244.24
+  IV Rank: 0.0
+  RSI: 50.1
+  ADX: 16.1
+  Win Probability: 75.0%
+  Expected Return: 1.44%
+  DTE: 14 days
+
+Row 7:
+  Date: 2024-09-04
+  Strategy: IRON_CONDOR
+  Current Price: $212.99
+  IV Rank: 54.9
+  RSI: 48.4
+  ADX: 16.6
+  Win Probability: 83.3%
+  Expected Return: 0.54%
+  DTE: 14 days
+
+Row 8:
+  Date: 2024-07-02
+  Strategy: IRON_CONDOR
+  Current Price: $201.88
+  IV Rank: 69.6
+  RSI: 49.6
+  ADX: 8.1
+  Win Probability: 93.3%
+  Expected Return: 0.65%
+  DTE: 14 days
+
+Row 9:
+  Date: 2024-05-01
+  Strategy: LONG_PUT
+  Current Price: $196.31
+  IV Rank: 58.1
+  RSI: 43.8
+  ADX: 15.6
+  Win Probability: 70.0%
+  Expected Return: 1.13%
+  DTE: 14 days
+
+Row 10:
+  Date: 2025-07-28
+  Strategy: CALENDAR_SPREAD
+  Current Price: $224.12
+  IV Rank: 33.3
+  RSI: 58.5
+  ADX: 18.5
+  Win Probability: 63.3%
+  Expected Return: 0.88%
+
+======================================================================
+END OF SUMMARY
+======================================================================

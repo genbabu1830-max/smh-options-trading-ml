@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "ticker": "SMH",
+  "asset_type": "etf",
+  "model_type": "LightGBM",
+  "created_date": "2024-12-06",
+  "accuracy": 0.8421,
+  "training_samples": 216,
+  "features": 84,
+  "strategies": 10,
+  "description": "SMH options strategy prediction model",
+  "files": {
+    "model": "lightgbm_clean_model.pkl",
+    "encoder": "label_encoder_clean.pkl",
+    "features": "feature_names_clean.json"
+  }
+}

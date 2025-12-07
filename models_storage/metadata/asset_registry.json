@@ -1,0 +1,76 @@
+{
+  "etfs": {
+    "SMH": {
+      "name": "VanEck Semiconductor ETF",
+      "sector": "Technology",
+      "model_type": "etf_specific",
+      "model_path": "etfs/SMH/production/",
+      "status": "active",
+      "last_trained": "2024-12-06",
+      "accuracy": 0.8421,
+      "training_days": 216
+    },
+    "SPY": {
+      "name": "SPDR S&P 500 ETF",
+      "sector": "Broad Market",
+      "model_type": "etf_specific",
+      "model_path": "etfs/SPY/production/",
+      "status": "planned"
+    },
+    "QQQ": {
+      "name": "Invesco QQQ ETF",
+      "sector": "Technology",
+      "model_type": "etf_specific",
+      "model_path": "etfs/QQQ/production/",
+      "status": "planned"
+    },
+    "IWM": {
+      "name": "iShares Russell 2000 ETF",
+      "sector": "Small Cap",
+      "model_type": "etf_specific",
+      "model_path": "etfs/IWM/production/",
+      "status": "planned"
+    }
+  },
+  "stocks": {
+    "model_info": {
+      "type": "universal",
+      "model_path": "stocks/universal/production/",
+      "trained_on": [],
+      "status": "planned",
+      "note": "ONE model handles ALL stocks"
+    },
+    "supported_tickers": {
+      "AAPL": {
+        "name": "Apple Inc.",
+        "sector": "Technology",
+        "uses_model": "stocks/universal"
+      },
+      "TSLA": {
+        "name": "Tesla Inc.",
+        "sector": "Automotive",
+        "uses_model": "stocks/universal"
+      },
+      "NVDA": {
+        "name": "NVIDIA Corporation",
+        "sector": "Technology",
+        "uses_model": "stocks/universal"
+      },
+      "MSFT": {
+        "name": "Microsoft Corporation",
+        "sector": "Technology",
+        "uses_model": "stocks/universal"
+      },
+      "GOOGL": {
+        "name": "Alphabet Inc.",
+        "sector": "Technology",
+        "uses_model": "stocks/universal"
+      },
+      "AMZN": {
+        "name": "Amazon.com Inc.",
+        "sector": "Consumer",
+        "uses_model": "stocks/universal"
+      }
+    }
+  }
+}
