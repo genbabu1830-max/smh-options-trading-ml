@@ -61,8 +61,12 @@ class RecommendationAgent:
         print("🔧 Initializing Recommendation Agent...")
         
         # Load ML model
-        self.model_loader = ModelLoader(use_s3=use_s3)
-        self.ml_model, self.label_encoder, self.feature_names = self.model_loader.load_model(ticker)
+        source = 's3' if use_s3 else 'local'
+        self.model_loader = ModelLoader(source=source)
+        models = self.model_loader.load_models_for_ticker(ticker)
+        self.ml_model = models['ml_model']
+        self.label_encoder = models['label_encoder']
+        self.feature_names = models['feature_names']
         print(f"✅ ML Model loaded ({len(self.feature_names)} features)")
         
         # Initialize feature extractor
